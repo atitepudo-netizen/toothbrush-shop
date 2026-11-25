@@ -68,7 +68,7 @@ fetch(URL_CSV).then(r => r.text()).then(t => {
     const el = document.createElement("div");
     el.className = "card";
     el.innerHTML = `
-      <img src="${img}" alt="${name}" onerror="this.src='https://placehold.co/400x300/dff3f0/2bb3a3?text=${encodeURIComponent(sku)}'">
+      <img src="รูปแยก/${img}" alt="${name}" onerror="this.src='https://placehold.co/400x300/dff3f0/2bb3a3?text=${encodeURIComponent(sku)}'">
       <div class="body">
         <span class="sku">${sku}</span>
         <span class="name">${name}</span>
